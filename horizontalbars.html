@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Progress Bar</title>
+<style>
+  body{
+    margin:50px ;
+    background-color:aliceblue;
+    font-size:30px;
+  }
+  .progress-container {
+    width: 30%;
+    background-color:#6e2929;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 10px;
+    background-color: #4caf4f;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+  }
+</style>
+</head>
+<body>
+  <h2>Creation of horizontal bars</h2>
+  <p>
+    These are used in making progression of content . Like what percentage of work that you have completed.
+  </p>
+
+<div class="progress-container">
+  <div class="progress-bar" style="width: 50%;"></div>
+</div>
+<p>Here,  red-------> Total progression && </p>
+  <p>green --------------> Progression that you have completed</p>
+</body>
+</html>
